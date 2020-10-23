@@ -5,7 +5,7 @@
 
 }
 body {
-    background: linear-gradient(120deg, #f6d365, #fda085);
+    background: linear-gradient(120deg, #de6262, #ffb88c);
     color: white;
     font-family: 'Noto Sans JP', sans-serif;
     min-height: 100vh;
@@ -32,19 +32,19 @@ form input, form button {
 }
 
 form button {
-    color: #d88771;
+    color: #de6262;
     background: white;
     cursor: pointer;
     transition: all 0.3s ease;
 }
 
 form button:hover {
-    background: #d88771;
+    background: #c72b2b;
     color: white;
 }
 
 .fa-heartbeat {
-    color: rgb(250, 109, 109);
+    color: rgb(255, 71, 71);
 }
 
 .fa-heartbeat:hover {
@@ -81,7 +81,7 @@ form button:hover {
 }
 
 .trash-btn, .complete-btn {
-    background: #ff6f47;
+    background: #de6262;
     color: white;
     border: none;
     padding: 1rem;
@@ -90,7 +90,7 @@ form button:hover {
 }
 
 .complete-btn {
-    background: rgb(69, 204, 69);
+    background: rgb(252, 134, 130);
 }
 
 .todo-item {
@@ -103,7 +103,8 @@ form button:hover {
 
 .completed {
     text-decoration: line-through;
-    opacity: 0.5;
+    color: #de6262;
+    opacity: 0.3;
 }
 
 .fall {
@@ -126,7 +127,7 @@ select {
 }
 
 select {
-    color: #ff6f47;
+    color: #de6262;
     width: 10rem;
     cursor: pointer;
     padding: 1rem;
@@ -137,7 +138,7 @@ select {
 .select::after {
     content: "\25BC";
     position: absolute;
-    background: #ff6f47;
+    background: #de6262;
     top: 0;
     right: 0;
     padding: 1rem;
@@ -147,5 +148,5 @@ select {
 
 .select:hover::after {
     background: white; 
-    color: #ff6f47;
+    color: #de6262;
 }
